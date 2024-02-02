@@ -324,7 +324,10 @@ public class HandlerForAllKeys {
 
 
             case "dog":
-//               наши обоработчики для собак
+                bot.sendMessage(chatId, " Переходим в предыдущее меню");
+                bot.sendMessage(bot.getProjectKeyboardConverter().inLineKeyboard(chatId,
+                        "Выберете, пожалуйста, вариант из предложенного меню!",
+                        TheThirdKeyboardIsHomeImprovementForAPet.getList(Animals.CAT), bot)); // переходим в предыдущее меню
                 break;
         }
 
