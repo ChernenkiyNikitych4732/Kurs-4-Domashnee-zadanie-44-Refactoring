@@ -619,7 +619,7 @@ public class HandlerForAllKeys {
                                 bot.sendMessage(chatId, " Переходим в предыдущее меню");
                                 bot.sendMessage(bot.getProjectKeyboardConverter().inLineKeyboard(chatId,
                                         "Выберете, пожалуйста, вариант из предложенного меню!",
-                                        TheSecondKeyboardWeTakeAAnimalFromTheShelter.getList(Animals.CAT), bot));
+                                        TheSecondKeyboardWeTakeAAnimalFromTheShelter.getList(Animals.DOG), bot));
                             }
                             break;
                             case "/come back3": {
