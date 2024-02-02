@@ -252,9 +252,9 @@ public class HandlerForAllKeys {
                         // обработчик при этом условии
                         bot.sendMessage(chatId, "Загрузите фото !   Нажав на скрепку внизу. " +
                                 "Ни чего вводить в строку как внизу бота, так и при загрузке фото, не нужно ! ");
-//                        bot.sendMessage(bot.getProjectKeyboardConverter().inLineKeyboard(chatId,
-//                                "Выберете, пожалуйста, вариант из предложенного меню!",
-//                                FifthKeyboardPartOneSendingAPhotoOfAnAnimal.getList(Animals.CAT), bot));
+                        bot.sendMessage(bot.getProjectKeyboardConverter().inLineKeyboard(chatId,
+                                "Выберете, пожалуйста, вариант из предложенного меню!",
+                                FifthKeyboardPartOneSendingAPhotoOfAnAnimal.getList(Animals.CAT), bot));
                         bot.enablingThe_processingPhotosForReport_method = true;
                         bot.animalsFlag = Animals.CAT;
                     }
